@@ -1,0 +1,30 @@
+api_version: 1
+threadsafe: true
+runtime: python27
+
+handlers:
+- url: /tfxkl17/bower_components
+  static_dir: tfxkl17/build/tfxkl17/bower_components
+  secure: always
+
+- url: /tfxkl17/data
+  static_dir: tfxkl17/build/tfxkl17/data
+  secure: always
+
+- url: /tfxkl17/images
+  static_dir: tfxkl17/build/tfxkl17/images
+  secure: always
+
+- url: /tfxkl17/src
+  static_dir: tfxkl17/build/tfxkl17/src
+  secure: always
+
+- url: /tfxkl17/manifest.json
+  static_files: tfxkl17/build/tfxkl17/manifest.json
+  upload: tfxkl17/build/tfxkl17/manifest.json
+  secure: always  
+  
+- url: /tfxkl17/.*
+  static_files: tfxkl17/build/tfxkl17/index.html
+  upload: tfxkl17/build/tfxkl17/index.html
+  secure: always

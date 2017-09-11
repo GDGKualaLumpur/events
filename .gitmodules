@@ -1,0 +1,9 @@
+[submodule "ioxkl17"]
+	path = ioxkl17
+	url = https://github.com/GDGKualaLumpur/ioxkl17.git
+[submodule "tfxkl17"]
+	path = tfxkl17
+	url = https://github.com/GDGKualaLumpur/tfxkl2017.git
+[submodule "ioxkl16"]
+	path = ioxkl16
+	url = https://github.com/GDGKualaLumpur/ioxkl2016.git

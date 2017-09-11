@@ -1,0 +1,6 @@
+dispatch:
+- url: "*/ioxkl17/*"
+  service: ioxkl17
+
+- url: "*/ioxkl16/*"
+  service: ioxkl16

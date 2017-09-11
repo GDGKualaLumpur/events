@@ -1,0 +1,54 @@
+service: ioxkl16
+api_version: 1
+threadsafe: true
+runtime: python27
+
+handlers:
+- url: /ioxkl16/bower_components
+  static_dir: ioxkl16/build/bower_components
+  secure: always
+
+- url: /ioxkl16/data
+  static_dir: ioxkl16/build/data
+  secure: always
+
+- url: /ioxkl16/images
+  static_dir: ioxkl16/build/images
+  secure: always
+
+- url: /ioxkl16/src
+  static_dir: ioxkl16/build/src
+  secure: always
+
+- url: /ioxkl16/scripts
+  static_dir: ioxkl16/build/scripts
+  secure: always
+
+- url: /ioxkl16/service-worker.js
+  static_files: ioxkl16/build/service-worker.js
+  upload: ioxkl16/build/service-worker.js
+  secure: always
+  expiration: "1s"
+
+- url: /ioxkl16/manifest.json
+  static_files: ioxkl16/build/manifest.json
+  upload: ioxkl16/build/manifest.json
+  secure: always
+
+- url: /ioxkl16/.*
+  static_files: ioxkl16/build/index.html
+  upload: ioxkl16/build/index.html
+  secure: always
+
+- url: /
+  static_files: ioxkl16/build/index.html
+  upload: ioxkl16/build/index.html
+  secure: always
+
+skip_files:
+  - ioxkl16/node_modules
+  - ioxkl16/bower_components
+  - ioxkl16/gulp-tasks
+  - ioxkl16/src
+  - ioxkl16/scripts
+  - ioxkl16/.temp
