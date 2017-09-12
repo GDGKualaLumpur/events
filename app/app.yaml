@@ -26,8 +26,11 @@ handlers:
   static_files: tfxkl17/build/tfxkl17/index.html
   upload: tfxkl17/build/tfxkl17/index.html
 
+- url: /tfxkl17.*
+  script: main.app
+
 - url: /.*
-  script: redirect.app
+  script: main.app
 
 skip_files:
   - tfxkl17/bower_components

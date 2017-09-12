@@ -1,8 +1,8 @@
 [submodule "ioxkl17"]
 	path = ioxkl17
 	url = https://github.com/GDGKualaLumpur/ioxkl17.git
-[submodule "tfxkl17"]
-	path = tfxkl17
+[submodule "app/tfxkl17"]
+	path = app/tfxkl17
 	url = https://github.com/GDGKualaLumpur/tfxkl2017.git
 [submodule "ioxkl16"]
 	path = ioxkl16
