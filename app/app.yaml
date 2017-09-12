@@ -8,29 +8,71 @@ handlers:
 
 - url: /tfxkl17/bower_components
   static_dir: tfxkl17/build/tfxkl17/bower_components
+  secure: always
 
 - url: /tfxkl17/data
   static_dir: tfxkl17/build/tfxkl17/data
+  secure: always
 
 - url: /tfxkl17/images
   static_dir: tfxkl17/build/tfxkl17/images
+  secure: always
 
 - url: /tfxkl17/src
   static_dir: tfxkl17/build/tfxkl17/src
+  secure: always
 
 - url: /tfxkl17/manifest.json
   static_files: tfxkl17/build/tfxkl17/manifest.json
   upload: tfxkl17/build/tfxkl17/manifest.json
+  secure: always
   
 - url: /tfxkl17/.*
   static_files: tfxkl17/build/tfxkl17/index.html
   upload: tfxkl17/build/tfxkl17/index.html
+  secure: always
 
 - url: /tfxkl17.*
   script: main.app
+  secure: always
+
+- url: /tensorflow-dev-summit.*
+  script: main.app
+  secure: always
+
+- url: /jomcodekl17/bower_components
+  static_dir: jomcodekl17/build/jomcodekl17/bower_components
+  secure: always
+
+- url: /jomcodekl17/data
+  static_dir: jomcodekl17/build/jomcodekl17/data
+  secure: always
+
+- url: /jomcodekl17/images
+  static_dir: jomcodekl17/build/jomcodekl17/images
+  secure: always
+
+- url: /jomcodekl17/src
+  static_dir: jomcodekl17/build/jomcodekl17/src
+  secure: always
+
+- url: /jomcodekl17/manifest.json
+  static_files: jomcodekl17/build/jomcodekl17/manifest.json
+  upload: jomcodekl17/build/jomcodekl17/manifest.json
+  secure: always
+  
+- url: /jomcodekl17/.*
+  static_files: jomcodekl17/build/jomcodekl17/index.html
+  upload: jomcodekl17/build/jomcodekl17/index.html
+  secure: always
+
+- url: /jomcodekl17.*
+  script: main.app
+  secure: always
 
 - url: /.*
   script: main.app
+  secure: always
 
 skip_files:
   - tfxkl17/bower_components
