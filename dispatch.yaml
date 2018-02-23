@@ -1,4 +1,13 @@
 dispatch:
+- url: "*/ioxkl18*"
+  service: ioxkl18
+
+- url: "*/ioextended*"
+  service: ioxkl18
+
+- url: "*/io18extended*"
+  service: ioxkl18
+
 - url: "*/ioxkl17*"
   service: ioxkl17
 
@@ -7,3 +16,6 @@ dispatch:
 
 - url: "*/ioxkl16*"
   service: ioxkl16
+
+- url: "*/io*"
+  service: ioxkl18

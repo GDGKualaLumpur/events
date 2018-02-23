@@ -13,3 +13,6 @@
 [submodule "app/jomcodekl17"]
 	path = app/jomcodekl17
 	url = https://github.com/GDGKualaLumpur/jomcodekl17
+[submodule "ioxkl18"]
+	path = ioxkl18
+	url = https://github.com/GDGKualaLumpur/ioxkl18
