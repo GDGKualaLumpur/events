@@ -16,3 +16,6 @@
 [submodule "ioxkl18"]
 	path = ioxkl18
 	url = https://github.com/GDGKualaLumpur/ioxkl18
+[submodule "tfxkl18"]
+	path = tfxkl18
+	url = https://github.com/GDGKualaLumpur/tfxkl18

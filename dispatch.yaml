@@ -1,4 +1,10 @@
 dispatch:
+- url: "*/tfxkl18*"
+  service: tfxkl18
+
+- url: "*/tfxkl*"
+  service: tfxkl18
+
 - url: "*/ioxkl18*"
   service: ioxkl18
 
