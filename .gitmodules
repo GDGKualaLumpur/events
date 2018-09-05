@@ -16,6 +16,7 @@
 [submodule "ioxkl18"]
 	path = ioxkl18
 	url = https://github.com/GDGKualaLumpur/ioxkl18
-[submodule "tfxkl18"]
-	path = tfxkl18
-	url = https://github.com/GDGKualaLumpur/tfxkl18
+[submodule "devfestkl18"]
+	path = devfestkl18
+	url = https://github.com/GDGKualaLumpur/devfestkl18
+	branch = master

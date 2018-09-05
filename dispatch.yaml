@@ -1,18 +1,15 @@
 dispatch:
-- url: "*/tfxkl18*"
-  service: tfxkl18
-
-- url: "*/tfxkl*"
-  service: tfxkl18
-
 - url: "*/ioxkl18*"
-  service: ioxkl18
-
-- url: "*/ioextended*"
-  service: ioxkl18
+  service: io
 
 - url: "*/io18extended*"
-  service: ioxkl18
+  service: io
+
+- url: "*/io2018*"
+  service: io
+
+- url: "*/io18*"
+  service: io
 
 - url: "*/ioxkl17*"
   service: ioxkl17
@@ -24,4 +21,4 @@ dispatch:
   service: ioxkl16
 
 - url: "*/io*"
-  service: ioxkl18
+  service: io
