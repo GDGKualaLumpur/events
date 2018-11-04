@@ -1,4 +1,13 @@
 dispatch:
+- url: "*/devfest*"
+  service: devfest
+
+- url: "*/devfest2018*"
+  service: devfest
+
+- url: "*/devfest18*"
+  service: devfest
+
 - url: "*/ioxkl18*"
   service: io
 
